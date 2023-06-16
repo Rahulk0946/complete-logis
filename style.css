@@ -1,0 +1,338 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: blue;
+    background-image: linear-gradient(rgba(71, 71, 179, 0.247), rgba(0, 0, 0, 2)), url(./images/Screenshot\ \(302\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-nav button{
+    border: 0px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.navcontainer {
+    padding-top: 20px;
+}
+
+.navbar .collapse .nav-item .nav-link{
+    color: white;
+    padding: 10px;
+}
+
+.navbar .navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 10px;
+}
+
+.master-header .masterheader-text{
+    color: white;
+    padding-top: 50px;
+}
+
+.master-header .masterheader-text h2{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.master-header .container{
+    overflow: hidden;
+}
+
+.master-header img{
+    width: 80%;
+    align-items: end;
+}
+
+.master-header form input{
+    width:400px;
+    height: 80px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.master-header form button{
+    color: black;
+    width: 100px;
+    background-color: blue;
+    margin-top: 20px;
+    /* height: 20px; */
+}
+
+.master-header .data{
+    color: white;
+}
+
+.abs .container i{
+    font-size: 40px;
+    color: blue;
+    padding: 10px;
+}
+
+.about-us .container .row h3{
+    color: darkblue;
+}
+
+.about-us .container .row ul li i{
+    color: blue;
+    font-size: 50px;
+}
+
+.about-us .container .row img{
+    width: 100%;
+}
+
+
+.our-service .container .card-group .card img{
+    width: 100%;
+}
+
+.our-service .container .card-group .card:hover{
+    transform: scale(1.1);
+    transition-duration: 800.5ms;
+}
+
+.our-service .container .card-group .card-body:hover{
+    color: blue;
+}
+
+
+
+.calltoaction {
+    background-color: blue;
+    background-image: linear-gradient(rgba(71, 71, 179, 0.247), rgba(0, 0, 0, 2)), url(./images/cta-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 50vh;
+}
+
+.calltoaction .container .row{
+    padding-top: 80px;
+    
+    
+}
+
+.calltoaction .container .row .card .card-body{
+    background-color: transparent;
+    margin: auto;
+}
+
+.calltoaction .container .row .card .card-body:hover{
+    transform: scale(1.1);
+    transition-duration: 800.5ms;
+}
+
+.calltoaction .container .row button{
+    color: white;
+    border: 1px solid;
+    width: 200px;
+}
+
+.feature .container .row img{
+    width: 80%;
+}
+
+.feature .container .row img:hover{
+    transform: scale(1.1);
+    transition-duration: 800.5ms;
+}
+
+.feature .container .row .card1-i i{
+    color: blue;
+}
+
+.feature .container .row h3{
+    color: blue;
+}
+
+.feature .container .card1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pricing .container .header h3{
+    text-shadow: 10px solid;
+    font-size: 50px;
+}
+
+.pricing .container .card-body .card-title{
+    font-size: 30px;
+}
+
+.pricing .container .card{
+    border: 0px solid;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pricing .container .card:hover{
+    transform: scale(1.1);
+    transition-duration: 800.5ms;
+}
+
+.pricing .container .card-body .dolor h3{
+    color: blue;
+    font-size: 50px;
+}
+
+.pricing .container .card-body .dolor p{
+    color: black;
+    padding-top: 30px;
+}
+
+.pricing .container .card-body .offers .btn{
+    border: 1px solid blue;
+    width: 100px;
+}
+
+.pricing .container .card-body .offers .btn:hover{
+    background-color: blue;
+}
+
+.pricing .container .card-body .offers .xmark{
+    text-decoration:line-through;
+}
+
+.feedback{
+    background-color: white;
+    background-image: linear-gradient(rgba(71, 71, 179, 0.247), rgba(0, 0, 0, 2)), url(./images/testimonials-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.feedback .container .row .carousel-inner .carousel-item img{
+    width:20%;
+    /* border-radius: 100px; */
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.feedback .container .row .carousel-inner .carousel-item .img{
+    margin-bottom: 150px;
+}
+
+.feedback .container .row .carousel-inner .carousel-item .carousel-caption{
+    color: white;
+}
+
+.feedback .container .row .carousel-inner .carousel-item .carousel-caption .i{
+    color: gold;
+}
+
+.feedback .container .row .carousel-inner .carousel-item .carousel-caption h6{
+    color: lightgrey;
+}
+
+.feedback .container .row .col .carousel-inner {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.feedback .container{
+    /* border: 1px solid green; */
+    height: 50vh;
+}
+
+.feedback .container .row .faq{
+    display: none;
+
+}
+
+.des{
+    margin: 0 auto;
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: blue;
+}
+
+.footer
+{
+    background-color: rgba(15,29,51,255);
+    color: white;
+}
+
+.footer .container .row .icon i{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgba(97, 97, 114, 0.877);
+}
+
+.footer .container .row .icon i:hover{
+    color: white;
+}
+
+.footer .container .row h6{
+    font-size: x-large;
+}
+
+.footer .container .row p{
+    color: rgba(97, 97, 114, 0.877);
+}
+
+.footer .container .row p:hover{
+    color: white;
+}
+
+.footer .container .row .ft{
+    color: white;
+}
+
+
+
+
+
+
+@media (max-width: 991px){
+    .master-header .container .text{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-us .container .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .feedback .container .row .carousel-inner .carousel-item img{
+        width: 50%;
+        margin-bottom: 200px;
+    }
+
+    .feedback{
+        background-color: white;
+        background-image: linear-gradient(rgba(71, 71, 179, 0.247), rgba(0, 0, 0, 2)), url(./images/testimonials-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        
+    }
+
+    
+}
+
+
+
